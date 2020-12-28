@@ -62,6 +62,11 @@
 
 a {
   color: #000000;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  text-decoration: none;
+  font-weight: 700;
+  color: #36363c
 }
 
 .contact a:hover {
@@ -374,4 +379,258 @@ img {
     -ms-flex-align: center;
     align-items: center;
     margin-bottom: 25px;
+}
+
+/*@media bootstraps*/
+
+@media screen and (max-width:1280px) {
+    body .section,
+    html .section {
+        padding: 100px
+    }
+}
+
+@media screen and (max-width:1024px) {
+    body .section,
+    html .section {
+        padding: 50px
+    }
+}
+
+@media screen and (max-width:768px) {
+    body .section,
+    html .section {
+        display: block
+    }
+}
+
+@media screen and (max-width:480px) {
+    body .section,
+    html .section {
+        padding: 50px 35px
+    }
+}
+
+@media screen and (max-width:768px) {
+    .gif-section {
+        display:none;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    body .title {
+        margin-right: 50px
+    }
+}
+
+@media screen and (max-width:850px) {
+    body .title {
+        width: 150px
+    }
+}
+
+@media screen and (max-width:768px) {
+    body .title {
+        text-align: left;
+        width: auto
+    }
+}
+
+@media screen and (max-width:768px) {
+    body .content {
+        padding-top: 30px;
+        padding-left: 50px
+    }
+}
+
+@media screen and (max-width:480px) {
+    body .content {
+        padding-left: 30px
+    }
+}
+
+@media screen and (max-width:630px) {
+    .intro {
+        padding: 120px 70px
+    }
+}
+
+@media screen and (max-width:550px) {
+    .intro {
+        padding: 120px 50px
+    }
+}
+
+@media screen and (max-width:480px) {
+    .intro {
+        padding: 70px 50px
+    }
+}
+
+
+@media screen and (max-width:1024px) {
+    .greeting,
+    .tagline {
+        font-size: 2.25rem
+    }
+}
+
+@media screen and (max-width:768px) {
+    .greeting,
+    .tagline {
+        font-size: 2rem
+    }
+}
+
+@media screen and (max-width:550px) {
+    .greeting,
+    .tagline {
+        font-size: 1.75rem
+    }
+}
+
+@media screen and (max-width:360px) {
+    .greeting,
+    .tagline {
+        font-size: 1.5rem
+    }
+}
+
+@media screen and (max-width:330px) {
+    .greeting,
+    .tagline {
+        font-size: 1.4rem
+    }
+}
+
+@media screen and (max-width:550px) {
+    .wrap .icon {
+        float: none;
+        display: none;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .tagline {
+        max-width: 500px;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .contact {
+        font-size: 1rem
+    }
+}
+
+@media screen and (max-width:630px) {
+    .skills {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap
+    }
+}
+
+@media screen and (max-width:630px) {
+    .skills .criteria {
+        width: 47%;
+        margin-right: 5px;
+        margin-bottom: 25px
+    }
+}
+
+@media screen and (max-width:1280px) {
+    .featured-projects .project {
+        width: 115%
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .projects .project {
+        width: 105%
+    }
+}
+
+@media screen and (max-width:768px) {
+    .projects .project {
+        width: 100%;
+        display: block;
+        margin-bottom: 70px
+    }
+}
+
+@media screen and (max-width:768px) {
+  p {
+        width: 100%;
+        margin-top: 25px;
+        margin-left: 0
+    }
+}
+
+
+@media screen and (max-width:1024px) {
+    .footer {
+        padding: 50px
+    }
+}
+
+@media screen and (max-width:630px) {
+    .footer {
+        display: block
+    }
+}
+
+@media screen and (max-width:480px) {
+    .footer {
+        padding: 50px 30px
+    }
+}
+
+@media screen and (max-width:630px) {
+    .footer_left {
+        width: auto;
+        text-align: center;
+        margin-bottom: 25px
+    }
+}
+
+@media screen and (max-width:630px) {
+    .footer_left .contact_bottom,
+    .footer_left .top {
+        display: inline-block
+    }
+}
+
+@media screen and (max-width:480px) {
+    .footer_left .contact_bottom,
+    .footer_left .top {
+        display: block
+    }
+}
+
+@media screen and (max-width:630px) {
+    .contact_bottom {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .contact_bottom a {
+        margin: 0 10px
+    }
+}
+
+@media screen and (max-width:850px) {
+    .contact_bottom a:after {
+        display: none
+    }
+}
+
+@media screen and (max-width:850px) {
+    .contact_bottom a strong {
+        display: none
+    }
 }
