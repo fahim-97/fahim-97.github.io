@@ -285,9 +285,9 @@ a:visited {
   text-decoration: none;
 }
 
-a:hover {
+/* a:hover {
   text-decoration: underline;
-}
+} */
 
 a:active {
   text-decoration: underline;
