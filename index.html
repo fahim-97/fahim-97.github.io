@@ -9,11 +9,17 @@
   <title>Fahim Siddiqui</title>
   <!-- Stylesheet -->
   <link rel="stylesheet" href="style.css">
-  <link rel="shortcut icon" type="images/ico" href="favicon.ico"/>
+  <link rel="shortcut icon" type="images/ico" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
   <div class="container">
+
+    <button id="scrollToTop">
+      <i class="material-icons">expand_less</i>
+    </button>
+
     <header class="intro">
       <h1 class="greeting">Hello, World!</h1>
       <div class="wrap">
@@ -294,5 +300,20 @@
     //Inspired by Joeb Rogers</section>
 
   </div>
+
+  <script>
+      const scrollToTop = document.querySelector("#scrollToTop");
+
+      scrollToTop.addEventListener("click", function(){
+
+        window.scrollTo({
+          top: 0,
+          left: 0,
+          behavior: "smooth"
+        })
+      })
+
+  </script>
+
 </body>
 </html>
