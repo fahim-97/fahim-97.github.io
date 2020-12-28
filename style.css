@@ -285,12 +285,12 @@ a:visited {
   text-decoration: none;
 }
 
-/* a:hover {
-  text-decoration: underline;
-} */
-
 a:active {
   text-decoration: underline;
+}
+
+.project {
+    height: 700px;
 }
 
 .projects a:after {
@@ -307,7 +307,7 @@ a:active {
     display: block
 }
 
-.projects .project-cover img {
+.project-cover img {
     width: 100%;
     max-width: 100%;
     vertical-align: bottom
@@ -315,20 +315,9 @@ a:active {
 
 .project-title {
   font-weight: 700;
-}
-
-.projects .project-title {
-    margin-bottom: 10px;
-    margin-right: 500px;
-}
-
-.projects .project-title a {
-    font-weight: 700
-}
-
-.projects .project p {
-    font-size: .85rem;
-    line-height: 1.3
+  width: 200px;
+  margin-bottom: 10px;
+  margin-right: 500px;
 }
 
 img {
