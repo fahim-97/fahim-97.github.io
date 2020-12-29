@@ -314,7 +314,7 @@ a:active {
 }
 
 .project {
-    height: 700px;
+    height: auto;
 }
 
 .projects a:after {
