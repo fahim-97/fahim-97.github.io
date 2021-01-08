@@ -408,7 +408,7 @@ img {
 }
 
 /*@media bootstraps*/
-
+/*
 @media screen and (max-width:1280px) {
     body .section,
     html .section {
@@ -659,4 +659,4 @@ img {
     .contact_bottom a strong {
         display: none
     }
-}
+} */
