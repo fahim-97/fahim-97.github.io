@@ -421,6 +421,29 @@ img {
     html .section {
         padding: 50px
     }
+
+    .icon, .wrap {
+      padding-left: auto;
+      padding-right: auto;
+      padding-bottom: auto;
+      padding-top: auto;
+    }
+
+    .intro {
+      width: auto;
+      height: auto;
+    }
+
+    .content {
+      width: auto;
+      height: auto;
+    }
+
+    .section, .skills {
+      width: auto;
+      height: auto;
+    }
+
 }
 
 @media screen and (max-width:768px) {
