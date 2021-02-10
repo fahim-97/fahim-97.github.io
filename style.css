@@ -418,8 +418,10 @@ img {
     .icon, .wrap {
       padding-left: auto;
       padding-right: auto;
-      padding-bottom: auto;
+      padding-bottom: 20%;
       padding-top: auto;
+      width: auto;
+      height: auto;
     }
 
     .intro {
@@ -435,10 +437,17 @@ img {
     .section, .skills {
       width: auto;
       height: auto;
+      display: block;
+    }
+
+    .criteria {
+      padding: auto;
+      padding-bottom: 10%;
+      display: block;
     }
 
       body .section,
-      html .section, .title, .p {
+      html .section, .p {
           display: block
       }
 
@@ -453,6 +462,11 @@ img {
       #scrollToTop {
         width: 90px;
         height: 90px;
+      }
+
+      .title {
+        display: block;
+        padding-bottom: 10%;
       }
 
 }
