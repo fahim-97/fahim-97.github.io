@@ -466,8 +466,8 @@ img {
           display: block
       }
 
-      .tagline {
-        display: block;
+      .intro .tagline {
+        max-width: 100%;
       }
 
       .tagline .name {
