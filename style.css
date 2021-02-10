@@ -106,15 +106,8 @@ body{
 
 .name {
   font-style: normal;
-  -webkit-transition: all .2s ease-in-out;
-  transition: all .2s ease-in-out;
-  font-weight: 20;
-  text-decoration: none;
-  display: inline-block;
-  padding: 2px 3px;
-  text-decoration: none;
-  -webkit-box-shadow: inset 0 -3px 0 #ef7215;
-  box-shadow: inset 0 -3px 0 #ef7215;
+  text-decoration: underline;
+  text-decoration-color: purple;
 }
 
 
@@ -444,8 +437,22 @@ img {
       height: auto;
     }
 
-}
+      body .section,
+      html .section, .title, .p {
+          display: block
+      }
 
+      .tagline {
+        display: block;
+      }
+
+      .tagline .name {
+        width: inherit;
+
+      }
+
+}
+/*
 @media screen and (max-width:768px) {
     body .section,
     html .section {
@@ -683,3 +690,4 @@ img {
         display: none
     }
 }
+*/
