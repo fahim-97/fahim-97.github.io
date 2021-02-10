@@ -448,7 +448,11 @@ img {
 
       .tagline .name {
         width: inherit;
+      }
 
+      #scrollToTop {
+        width: 90px;
+        height: 90px;
       }
 
 }
