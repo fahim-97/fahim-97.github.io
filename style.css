@@ -120,10 +120,6 @@ body .greeting {
     cursor: pointer
 }
 
-/*.wrap .tagline {
-    max-width: 90%;
-}*/
-
 .wrap .tagline {
     max-width: 90%;
     position: relative;
@@ -291,6 +287,10 @@ p a:hover{
   text-decoration: none;
 }
 
+p {
+  width: 80%;
+}
+
 .project-title a:hover {
    text-decoration: none;
 }
@@ -310,7 +310,7 @@ a:active {
 .project {
     display: block;
     height: auto;
-    width: auto;
+    width: 90%;
 }
 
 .projects a:after {
@@ -318,7 +318,8 @@ a:active {
 }
 
 .projects .project-cover {
-    max-width: 100%;
+    width: 80%;
+    height: 80%;
     overflow: inherit;
     margin: 0
 }
@@ -433,7 +434,7 @@ img {
 
     .project {
       display: block;
-      width: 70%;
+      width: 100%;
       height: auto;
     }
 
