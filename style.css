@@ -79,6 +79,56 @@
   background: #893101;
 }
 
+.container {
+  max-width: 1536px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+/*2XL*/
+@media (max-width: 1536px){
+  .container {
+    max-width: 1280px;
+  }
+}
+
+/*XL*/
+@media (max-width: 1280px){
+  .container {
+    max-width: 1024px;
+  }
+}
+
+/*LG*/
+@media (max-width: 1024px){
+  .container {
+    max-width: 768px;
+  }
+}
+
+/*MED*/
+@media (max-width: 768px){
+  .container {
+    max-width: 640px;
+  }
+}
+
+/*SM*/
+@media (max-width: 640px){
+  .container {
+    max-width: 475px;
+  }
+}
+
+/*XS*/
+@media (max-width: 475px){
+  .container {
+    width: 100%;
+  }
+}
+
 a {
   color: #000000;
   -webkit-transition: all .2s ease-in-out;
@@ -140,8 +190,8 @@ body .greeting {
     -ms-flex-direction: column;
     flex-direction: column;
     -ms-flex-pack: distribute;
-    justify-content: space-around;
-    max-width: 80%;
+    justify-content: left;
+    width: 100%;
     margin: auto
 }
 
@@ -237,14 +287,15 @@ html .section {
 .content{
     font-weight: 300;
     font-size: 1rem;
-    width: 60%;
-    max-width: auto;
+    width: 100%;
+    max-width: 90%;
     margin-right: 5%;
 }
 
 .content p {
     margin-top: 0;
     margin-bottom: 2%;
+    max-width: 100%;
 }
 
 ul {
@@ -289,6 +340,7 @@ p a:hover{
 
 p {
   width: 90%;
+  overflow-x: hidden;
 }
 
 .project-title a:hover {
@@ -311,6 +363,8 @@ a:active {
     display: block;
     height: auto;
     width: 90%;
+    overflow-x: hidden;
+    max-width: 100%;
 }
 
 .projects a:after {
@@ -320,7 +374,9 @@ a:active {
 .projects .project-cover {
     width: 80%;
     height: 80%;
-    overflow: inherit;
+    max-width: 100%;
+    /*overflow: inherit;*/
+    overflow-x: hidden;
     margin: 0
 }
 
@@ -330,6 +386,7 @@ a:active {
 
 .project-cover img {
     width: 100%;
+    overflow-x: hidden;
     max-width: 100%;
     vertical-align: bottom
 }
@@ -339,11 +396,6 @@ a:active {
   width: 400px;
   margin-bottom: 10px;
   margin-right: 500px;
-}
-
-img {
-    max-width: 100%;
-    max-height: 100%;
 }
 
 .footer {
