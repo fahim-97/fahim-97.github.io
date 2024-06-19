@@ -280,7 +280,7 @@ html .section {
     justify-content: center;
     float: left;
     margin-left: 5%;
-    padding: 100px 170px
+    padding: 30px 170px
 }
 
 
@@ -296,6 +296,8 @@ html .section {
     margin-top: 0;
     margin-bottom: 2%;
     max-width: 100%;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 ul {
